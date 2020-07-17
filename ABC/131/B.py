@@ -7,5 +7,4 @@ array = [ L+x for x in range(N)]
 before = 100
 for I in array:
     if abs(I) <= before: before = abs(I);position = array.index(I)
-print(before)
 print(sum(array) - array[position])
